@@ -27,14 +27,11 @@ class Footer extends React.Component {
         <section className="sitemap">
           <div align="center">
             <h5>About</h5>
-            <a href={this.docUrl("doc1.html", this.props.language)}>
+            <a href={this.docUrl("doc1", this.props.language)}>
               About Our Intuit Scheduler Application
             </a>
-            <a href={this.docUrl("doc2.html", this.props.language)}>
+            <a href="https://www.intuit.com/">
               Our Project Sponsor: Intuit Homepage
-            </a>
-            <a href={this.docUrl("doc3.html", this.props.language)}>
-              Intuit Mentors
             </a>
           </div>
           <div align="center">
@@ -50,7 +47,7 @@ class Footer extends React.Component {
           </div>
           <div align="center">
             <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Resources</a>
+            <a href={this.docUrl("doc2", this.props.language)}>Resources</a>
             <a href="https://github.com/">GitHub</a>
           </div>
         </section>

@@ -43,7 +43,6 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { page: "index", label: "Home" },
     { doc: "doc1", label: "About ISA" },
     { page: "team", label: "Team" },
     { doc: "doc2", label: "Resources" },
