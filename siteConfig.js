@@ -26,8 +26,8 @@ const siteConfig = {
   // as the package.json file for now
   customDocsPath: path.basename(__dirname) + "/docs",
 
-  title: "ISA", // Title for your website.
-  tagline: "",
+  title: "Intuit Scheduler App", // Title for your website.
+  tagline: "Employee Work Scheduling Application",
   url: "https://your-docusaurus-test-site.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -43,24 +43,25 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "doc1", label: "Docs" },
-    { doc: "doc4", label: "API" },
-    { page: "help", label: "Help" },
-    { blog: true, label: "Blog" },
+    { page: "index", label: "Home" },
+    { doc: "doc1", label: "About ISA" },
+    { page: "help", label: "Developers" },
+    { blog: true, label: "Resources" },
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/favicon.ico",
-  footerIcon: "img/favicon.ico",
-  favicon: "img/favicon.ico",
+  // headerIcon: "img/favicon.ico",
+  //footerIcon: "img/favicon.ico",
+  //favicon: "img/favicon.ico",
 
   /* Colors for website */
   colors: {
-    primaryColor: "#03453a",
-    secondaryColor: "#023028",
+    // primaryColor: "#03453a",
+    primaryColor: "#1675f2",
+    secondaryColor: "#1667c4",
   },
 
   /* Custom fonts for website */
@@ -78,7 +79,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: "Intuit Scheduler Application",
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

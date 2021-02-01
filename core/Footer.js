@@ -25,80 +25,39 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-                width="66"
-                height="58"
-              />
-            )}
-          </a>
-          <div>
-            <h5>Docs</h5>
+        <div>
+            <h5>About</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+              About Our Intuit Scheduler Application
             </a>
             <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+              Our Project Sponsor: Intuit Homepage
             </a>
             <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+              Intuit Mentors
             </a>
           </div>
-          <div>
-            <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
+        <div>
+            <h5>About the Developers</h5>
+            <a href="https://www.linkedin.com/in/amandaleecs/">
+              Amanda Lee
             </a>
-            <a
-              href="https://stackoverflow.com/questions/tagged/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Stack Overflow
+            <a href="https://www.linkedin.com/in/ayanakano/">
+              Aya Nakano
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Twitter
+            <a href="https://www.linkedin.com/in/nathan-montemayor-408985159/">
+              Carl Montemayor
+            </a>
+            <a href= "https://www.linkedin.com/in/gage-shaw-2564a6191/">
+              Gage Shaw
             </a>
           </div>
           <div>
             <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
+            <a href={`${this.props.config.baseUrl}blog`}>Resources</a>
             <a href="https://github.com/">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub"
-            >
-              Star
-            </a>
           </div>
         </section>
-
-        <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource"
-        >
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
