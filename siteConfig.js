@@ -27,7 +27,7 @@ const siteConfig = {
   customDocsPath: path.basename(__dirname) + "/docs",
 
   title: "Intuit Scheduler App", // Title for your website.
-  tagline: "Employee Work Scheduling Application",
+  tagline: "The Employee Work Scheduling Application",
   url: "https://your-docusaurus-test-site.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -45,8 +45,8 @@ const siteConfig = {
   headerLinks: [
     { page: "index", label: "Home" },
     { doc: "doc1", label: "About ISA" },
-    { page: "help", label: "Developers" },
-    { blog: true, label: "Resources" },
+    { page: "team", label: "Team" },
+    { doc: "doc2", label: "Resources" },
   ],
 
   // If you have users set above, you add it here:
