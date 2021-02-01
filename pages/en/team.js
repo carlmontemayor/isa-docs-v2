@@ -45,11 +45,15 @@ function Team(props) {
   const instructors = [
     {
       title: "Dr. Sergiu Dascalu",
-      content: "CS 426 Professor",
+      content: "UNR CS 426 Professor",
+    },
+    {
+      title: "Dr. David Feil-Seifer",
+      content: "UNR CS 426 Professor",
     },
     {
       title: "Devrin Lee",
-      content: "CS 426 Professor",
+      content: "UNR CS 426 Professor",
     },
   ];
 
@@ -73,7 +77,7 @@ function Team(props) {
           </header>
           <GridBlock layout="fourColumn" contents={developers}></GridBlock>
           <h1>Meet Our Instructors!</h1>
-          <GridBlock layout="twoColumn" contents={instructors}></GridBlock>
+          <GridBlock layout="threeColumn" contents={instructors}></GridBlock>
           <h1>Meet Our External Advisors!</h1>
           <GridBlock layout="twoColumn" contents={advisors}></GridBlock>
         </div>
