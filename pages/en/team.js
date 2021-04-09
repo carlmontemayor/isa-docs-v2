@@ -73,7 +73,7 @@ function Team(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Meet Our Team 8!</h1>
+            <h1>Meet Our Team 18!</h1>
           </header>
           <GridBlock layout="fourColumn" contents={developers}></GridBlock>
           <h1>Meet Our Instructors!</h1>
