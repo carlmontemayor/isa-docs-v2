@@ -139,16 +139,41 @@ class Index extends React.Component {
     );
 
     const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content: "Our project video will be uploaded here",
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: "right",
-            title: "Project Video Coming Soon!",
-          },
-        ]}
-      </Block>
+      <div 
+      style={{ textAlign: "center" }}
+      >
+         <span 
+         style={{ margin: "70px" }}
+         >
+         
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/Qfs_6KryKa0" > 
+       </iframe> 
+        </span>
+        <span 
+         style={{ margin: "70px" }}
+         >
+        <iframe width="420" height="345" src="https://www.youtube.com/embed/EI2qmhSL7pc">
+       </iframe> 
+        </span>
+        
+
+
+      </div>
+    
+      // <Block background="light">
+      //   {[
+      //     {
+      //       content: "Our project video will be uploaded here",
+      //       image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+      //       imageAlign: "right",
+      //       title: "Project Video Coming Soon!",
+      //       src: "https://youtu.be/Qfs_6KryKa0"
+      //     },
+      //   ]}
+        
+
+      // </Block>
+      
     );
 
     const Showcase = () => {
